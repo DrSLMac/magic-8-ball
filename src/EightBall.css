@@ -1,0 +1,22 @@
+.eightBall-container {
+    height: 100%;
+    background: linear-gradient(#d2d3dc, #000000);
+    align-content: center;
+  }
+
+.ball-container {
+  background-color: black;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30vw;
+}  
+
+.outer-ball {
+  position: relative;
+  height: 20vh;
+  width: 20vw;
+  margin: 0;
+}
+
+  
