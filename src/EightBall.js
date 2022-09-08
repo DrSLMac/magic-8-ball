@@ -1,16 +1,17 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './EightBall.css'
 
 
 function EightBall({result, newFortune}) {
         return (
             <div className='eightBall-container'>
-               <div className='ball-container'>
+               <div className='ball-container' onClick={newFortune}>
                 <div className='outer-ball'>
+                    <div className='reflection'></div>
                     <div className='inner-ball'>
-                        <button onClick={newFortune}>
-                            <p className='answer'>{result}</p>
-                        </button>
+                        <div className='answer'>
+                            <p >{result}</p>
+                        </div>
                     </div>
                 </div>
                </div>
